@@ -13,8 +13,14 @@
     "require": {
         "php": ">=5.3.0",
         "ext-curl": "*",
-        "paypal/sdk-core-php":"3.*"
+        "wprelay/rest-api-sdk-php":"dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:wprelay/sdk-core-php.git"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "PayPal\\Service": "lib/",
